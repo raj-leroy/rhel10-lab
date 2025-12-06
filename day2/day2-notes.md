@@ -1,4 +1,4 @@
-Day 2 Notes
+Day 2 - Understanding man Pages and Linux Help Tools
 
 I learned how to use the built-in Linux help tools today. These tools let me figure out commands and options without using Google. This is important for real production servers that might not have internet access.
 
