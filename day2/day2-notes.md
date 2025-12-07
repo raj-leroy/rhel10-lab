@@ -1,21 +1,15 @@
-Day 2 - Understanding man Pages and Linux Help Tools
+Today I focused on strengthening on-system troubleshooting using native Linux documentation tools inside RHEL 10. In real production environments where external internet access is often restricted, built-in documentation becomes the primary source of truth for safe system changes and incident response.
 
-I learned how to use the built-in Linux help tools today. These tools let me figure out commands and options without using Google. This is important for real production servers that might not have internet access.
+What I worked on today:
+• Navigated and interpreted man pages for system and admin commands
+• Used apropos and whatis for command discovery by keyword
+• Validated command behavior and flags using --help
+• Applied man page sections 1, 5, and 8 for commands, config files, and admin utilities
+• Completed a hands-on task using only on-system documentation
 
-I practiced using man, man -k, apropos, whatis, and --help. I worked inside the man pages, learned how to move around, and how to search inside them.
+This directly supports real-world system administration and security operations where accuracy, speed, and misconfiguration prevention matter.
 
-I learned how man pages are organized. Section 1 is for commands, section 5 is for configuration files, and section 8 is for system administration commands. I saw the difference by looking at man 1 passwd and man 5 passwd.
+Lab notes and documentation:
+👉 https://lnkd.in/e5ETvjU6
 
-I used apropos and man -k to search for commands when I did not know the command name. I used whatis to get short descriptions. I used --help to get quick summaries.
-
-For the lab:
-- pwd shows the current directory
-- mkdir -p creates nested directories
-- head shows the beginning of a file and defaults to 10 lines
-- ls -h shows human readable sizes
-- /etc/shadow is documented in section 5 and is the shadowed password file
-
-The main thing I learned today is how to find answers on my own by using the Linux documentation system. This will help me with everything else going forward.
-
-Tomorrow I will move on to more command-line practice.
-
+#Linux #RHEL10 #SysAdmin #CloudSecurity #SecurityOperations #GitHub #SecurityPlus
